@@ -1,0 +1,6 @@
+{
+  "name": "વાવડી પ્રા. શાળા - ધો. ૭ હાજરી પત્રક (Vavadi Pra Shala Std 7 Attendance)",
+  "description": "વાવડી પ્રાથમિક શાળા ધોરણ ૭ નું સચિત્ર દૈનિક તથા માસિક હાજરી પત્રક, મધ્યાહ્ન ભોજન ગણતરી અને પ્રિન્ટ રિપોર્ટ (Std 7 Attendance Register with Photos)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

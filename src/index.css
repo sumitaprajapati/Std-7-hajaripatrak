@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Gujarati', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-gujarati {
+    font-family: 'Noto Sans Gujarati', system-ui, sans-serif;
+  }
+
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 8mm;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 11px !important;
+  }
+
+  .print-table th, 
+  .print-table td {
+    border: 1px solid #333 !important;
+    padding: 3px 4px !important;
+  }
+
+  .print-header {
+    margin-bottom: 12px !important;
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 6px !important;
+  }
+
+  .page-break {
+    page-break-after: always;
+  }
+}
